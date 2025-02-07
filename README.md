@@ -1,6 +1,6 @@
 # Asteroids 
 
-Axel is learnin Rust!
+Axel is learnin Rust
 
 "Space is big. Really big. You just won't believe how vastly, hugely, mind-bogglingly big it is."
 
