@@ -18,6 +18,8 @@
  * ↑ to thrust
  * SPACE to shoot
  * R to restart when game over
+ * 
+ * "Time is an illusion. Gameplay doubly so." - Douglas Adams
  */
 
 use ggez::{
