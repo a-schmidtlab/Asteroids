@@ -1,3 +1,25 @@
+/*
+ * A take on the classic Asteroids game.
+ * (c) 2025 Axel Schmidt
+ * 
+ * I built this while learning Rust, using the GGEZ game engine.
+ * It's got all the stuff - you fly around in a spaceship, blast
+ * asteroids, and try not to crash. When you hit something,
+ * there's some particle effects, and your score pops up on screen. Or not :(
+ * 
+ * The code is not very rust like.
+ * Some Rust features like safe memory management and game patterns.
+ * 
+ * "In the beginning the Universe was created. This has made a lot of people 
+ * very angry and been widely regarded as a bad move." - Douglas Adams
+ * 
+ * Controls:
+ * ← → to rotate
+ * ↑ to thrust
+ * SPACE to shoot
+ * R to restart when game over
+ */
+
 use ggez::{
     event,
     graphics::{Canvas, Color, DrawMode, DrawParam, Drawable, Mesh, Text, TextFragment},
